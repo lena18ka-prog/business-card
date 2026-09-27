@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Кошелева Юлия Глебовна — ЭИТЭК</title>
+    <title>Авдей Юлия Глебовна — ЭИТЭК</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -276,7 +276,7 @@
     <div class="profile">
         <div class="photo-wrap">
             <div class="photo-ring"></div>
-            <img src="photo.jpg" alt="Кошелева Юлия Глебовна" class="photo" id="photo" onerror="this.style.display='none';document.getElementById('fallback').style.display='flex';">
+            <img src="photo.jpg" alt="Авдей Юлия Глебовна" class="photo" id="photo" onerror="this.style.display='none';document.getElementById('fallback').style.display='flex';">
             <div class="photo-fallback" id="fallback">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
                     <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
@@ -286,7 +286,7 @@
             <div class="status"></div>
         </div>
         <div class="info">
-            <h1><span class="surname">Кошелева</span>Юлия Глебовна</h1>
+            <h1><span class="surname">Авдей</span>Юлия Глебовна</h1>
             <div class="position">Начальник технологического отдела</div>
         </div>
     </div>
@@ -408,8 +408,8 @@ function showToast(msg) {
 function saveContact() {
     const vcard = `BEGIN:VCARD
 VERSION:3.0
-FN:Кошелева Юлия Глебовна
-N:Кошелева;Юлия;Глебовна;;
+FN:Авдей Юлия Глебовна
+N:Авдей;Юлия;Глебовна;;
 ORG:ЭИТЭК
 TITLE:Начальник технологического отдела
 TEL;TYPE=WORK:+74959261080
@@ -423,7 +423,7 @@ END:VCARD`;
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = 'Кошелева_Юлия.vcf';
+    a.download = 'Авдей_Юлия.vcf';
     a.click();
     URL.revokeObjectURL(url);
     showToast('Контакт сохранён');
